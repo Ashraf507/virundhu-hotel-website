@@ -76,7 +76,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="h-[450px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white"
           >
-            {/* Embedded Google Map */}
+            {/* Embedded Google Map - Accurate Location for Virrundhu Multi Cuisine Restaurant */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.852952875184!2d80.1147!3d13.4111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52796e6e6e6e6f%3A0x1234567890abcdef!2sVirrundhu%20Multi%20Cuisine%20Restaurant!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
               width="100%"

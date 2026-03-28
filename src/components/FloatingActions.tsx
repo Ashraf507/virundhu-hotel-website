@@ -6,7 +6,7 @@ export default function FloatingActions() {
   return (
     <div className="floating-btn">
       <motion.a
-        href="https://wa.me/919042221311"
+        href="https://wa.me/919042221311?text=Hi,%20I%20would%20like%20to%20order%20from%20your%20restaurant"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
