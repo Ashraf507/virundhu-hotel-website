@@ -1,0 +1,7 @@
+{
+  "name": "Virrundhu Multi Cuisine Restaurant",
+  "description": "Premium multi-cuisine dining experience in Gummidipoondi, Tamil Nadu. A feast worth the journey.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
