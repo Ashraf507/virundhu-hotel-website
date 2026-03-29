@@ -20,8 +20,13 @@ export default function Contact() {
             </h2>
 
             <div className="space-y-8">
-              <div className="flex items-start gap-6">
-                <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-earth-gold shadow-sm shrink-0">
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Virrundhu+Multi+Cuisine+Restaurant+Gummidipoondi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-6 group cursor-pointer"
+              >
+                <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-earth-gold shadow-sm shrink-0 group-hover:bg-earth-gold group-hover:text-white transition-all">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -31,7 +36,7 @@ export default function Contact() {
                     Tamil Nadu 601201, India
                   </p>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-start gap-6">
                 <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-earth-gold shadow-sm shrink-0">
@@ -60,7 +65,7 @@ export default function Contact() {
 
             <div className="mt-12 flex gap-4">
               <a 
-                href="https://www.google.com/maps/dir//Virrundhu+Multi+Cuisine+Restaurant,+No+147,+NH+05,+Verkadu+Gummudipoondi+Bye+Pass,+Tamil+Nadu+601201"
+                href="https://www.google.com/maps/search/?api=1&query=Virrundhu+Multi+Cuisine+Restaurant+Gummidipoondi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2"
@@ -78,7 +83,7 @@ export default function Contact() {
           >
             {/* Embedded Google Map - Accurate Location for Virrundhu Multi Cuisine Restaurant */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.852952875184!2d80.1147!3d13.4111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52796e6e6e6e6f%3A0x1234567890abcdef!2sVirrundhu%20Multi%20Cuisine%20Restaurant!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps?q=Virrundhu%20Multi%20Cuisine%20Restaurant%20Gummidipoondi&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}

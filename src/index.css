@@ -12,9 +12,6 @@
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
   body {
     @apply font-sans bg-earth-cream text-earth-brown;
   }

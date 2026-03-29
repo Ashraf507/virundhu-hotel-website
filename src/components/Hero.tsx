@@ -37,14 +37,16 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to="menu"
-              smooth={true}
+              smooth="easeInOutQuart"
+              duration={600}
               className="btn-primary flex items-center gap-2 cursor-pointer w-full sm:w-auto justify-center"
             >
               View Menu <ChevronRight className="w-4 h-4" />
             </Link>
             <Link
               to="contact"
-              smooth={true}
+              smooth="easeInOutQuart"
+              duration={600}
               className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-earth-brown transition-all flex items-center gap-2 w-full sm:w-auto justify-center cursor-pointer"
             >
               <MapPin className="w-4 h-4" /> Get Directions

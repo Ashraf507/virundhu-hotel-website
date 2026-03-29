@@ -51,9 +51,9 @@ export default function Navbar() {
                 key={link.to}
                 to={link.to}
                 spy={true}
-                smooth={true}
+                smooth="easeInOutQuart"
                 offset={-70}
-                duration={500}
+                duration={600}
                 className={cn(
                   "cursor-pointer text-sm font-medium transition-colors hover:text-earth-gold",
                   scrolled ? "text-earth-brown" : "text-white"
@@ -62,18 +62,6 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              to="contact"
-              smooth={true}
-              className={cn(
-                "px-6 py-2 rounded-full text-sm font-medium transition-all",
-                scrolled 
-                  ? "bg-earth-brown text-white hover:bg-earth-gold" 
-                  : "bg-white text-earth-brown hover:bg-earth-gold hover:text-white"
-              )}
-            >
-              Book Table
-            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}

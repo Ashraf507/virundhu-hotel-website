@@ -1,10 +1,25 @@
 import React from 'react';
-import { Phone, MessageCircle } from 'lucide-react';
+import { Phone, MessageCircle, MapPin } from 'lucide-react';
 import { motion } from 'motion/react';
+import { Link } from 'react-scroll';
 
 export default function FloatingActions() {
   return (
     <div className="floating-btn">
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+      >
+        <Link
+          to="contact"
+          smooth="easeInOutQuart"
+          duration={600}
+          className="action-icon bg-blue-500 cursor-pointer"
+          title="Open in Maps"
+        >
+          <MapPin className="w-6 h-6" />
+        </Link>
+      </motion.div>
       <motion.a
         href="https://wa.me/919042221311?text=Hi,%20I%20would%20like%20to%20order%20from%20your%20restaurant"
         target="_blank"
