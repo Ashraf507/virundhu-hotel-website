@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/virundhu-hotel-website/', // ⭐ THIS FIXES YOUR ISSUE
+    base: 'virundhu-hotel-website', // ⭐ THIS FIXES YOUR ISSUE
 
     plugins: [react(), tailwindcss()],
 
